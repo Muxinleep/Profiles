@@ -1,0 +1,36 @@
+# >> 自定义规则列表 :Add
+
+- DOMAIN-SUFFIX,ping.pe,DIRECT
+- DOMAIN-SUFFIX,pancholin.monster,DIRECT
+- DOMAIN-SUFFIX,cloudflare.com,DIRECT
+- DOMAIN-SUFFIX,Namesilo.com,DIRECT
+- DOMAIN-SUFFIX,vultr.com,DIRECT
+- DOMAIN-SUFFIX,xclient.info,PROXY
+- DOMAIN-SUFFIX,apkleecher.com,PROXY
+- DOMAIN-SUFFIX,tiny.cc,PROXY
+- DOMAIN-SUFFIX,fliqlo.com,PROXY
+- DOMAIN-SUFFIX,downloads.vivaldi.com,PROXY
+- DOMAIN-SUFFIX,letsupload.co,PROXY
+- DOMAIN-SUFFIX,1fichier.com,PROXY
+- DOMAIN-SUFFIX,wikihow.com,PROXY
+- DOMAIN-SUFFIX,ycombinator.com,PROXY
+- DOMAIN-SUFFIX,disp.cc,PROXY
+- DOMAIN-SUFFIX,sendit.cloud,PROXY
+- DOMAIN-SUFFIX,kindleren.com,PROXY
+- DOMAIN-SUFFIX,shanyue.tech,PROXY
+- DOMAIN-SUFFIX,whygitisbetterthanx.com,PROXY
+- DOMAIN-SUFFIX,xingfuke.net,PROXY
+- DOMAIN-SUFFIX,gitlabhq.com,PROXY
+- DOMAIN-SUFFIX,forfrigg.com,PROXY
+- DOMAIN-SUFFIX,turbobit.net,PROXY
+- DOMAIN-SUFFIX,sitepoint.com,PROXY
+- DOMAIN-SUFFIX,thepiratebay.cd,PROXY
+- DOMAIN-SUFFIX,aoenian.github.io,PROXY
+- DOMAIN-SUFFIX,voicetube.com,PROXY
+- DOMAIN-SUFFIX,gitbook.com,PROXY
+- DOMAIN-SUFFIX,getmacapp.com,PROXY
+- DOMAIN-SUFFIX,pilz.com,PROXY
+- DOMAIN-SUFFIX,twist.com,PROXY
+- DOMAIN-SUFFIX,last.fm,PROXY
+- DOMAIN-SUFFIX,f2ex.cn,PROXY
+- DOMAIN-SUFFIX,moshi.com,PROXY
