@@ -1,3 +1,14 @@
+# Client 自定义
+PROCESS-NAME,com.qianyan.eudic,DIRECT
+PROCESS-NAME,com.microsoft.skydrive,DIRECT
+PROCESS-NAME,com.catchingnow.icebox,DIRECT
+PROCESS-NAME,com.yaya.zone,DIRECT
+PROCESS-NAME,com.meiriyiwen.app,DIRECT
+PROCESS-NAME,com.coolapk.market,DIRECT
+PROCESS-NAME,com.spotify.music,DIRECT
+PROCESS-NAME,com.shanga.walli,DIRECT
+
+
 # >> 自定义规则列表 :Add
 
 - DOMAIN-SUFFIX,ping.pe,DIRECT
