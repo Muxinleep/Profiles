@@ -1,3 +1,52 @@
+############ ShadowPro.conf ############
+[Rule]
+# CUSTOM RULE
+USER-AGENT,Lynda*,DIRECT
+USER-AGENT,Wallpapers*,DIRECT
+# > Spotify改为直连
+USER-AGENT,Spotify*,DIRECT
+DOMAIN-SUFFIX,pscdn.co,DIRECT
+DOMAIN-SUFFIX,scdn.co,DIRECT
+DOMAIN-SUFFIX,spotify.com,DIRECT
+DOMAIN-SUFFIX,spoti.fi,DIRECT
+IP-CIDR,35.186.224.47/32,DIRECT,no-resolve
+# > Microsoft Onedrive等 改为直连
+# > Microsoft
+#DOMAIN-SUFFIX,onedrive.live.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,onedrive.live.com,DIRECT
+#DOMAIN-SUFFIX,xboxlive.com,PROXY,force-remote-dns
+DOMAIN-SUFFIX,xboxlive.com,DIRECT
+
+# >> Microsoft OneDrive
+USER-AGENT,OneDrive*,DIRECT
+USER-AGENT,OneDriveiOSApp*,DIRECT
+
+# > Microsoft
+DOMAIN-SUFFIX,1drv.com,DIRECT
+DOMAIN-SUFFIX,1drv.ms,DIRECT
+DOMAIN-SUFFIX,blob.core.windows.net,DIRECT
+DOMAIN-SUFFIX,livefilestore.com,DIRECT
+DOMAIN-SUFFIX,onedrive.com,DIRECT
+DOMAIN-SUFFIX,storage.live.com,DIRECT
+DOMAIN-SUFFIX,storage.msn.com,DIRECT
+DOMAIN,oneclient.sfx.ms,DIRECT
+
+# > Microsoft
+DOMAIN-SUFFIX,microsoft.com,DIRECT
+DOMAIN-SUFFIX,msecnd.net,DIRECT
+DOMAIN-SUFFIX,office365.com,DIRECT
+DOMAIN-SUFFIX,outlook.com,DIRECT
+DOMAIN-SUFFIX,s-microsoft.com,DIRECT
+DOMAIN-SUFFIX,visualstudio.com,DIRECT
+DOMAIN-SUFFIX,windows.com,DIRECT
+DOMAIN-SUFFIX,windowsupdate.com,DIRECT
+DOMAIN,officecdn-microsoft-com.akamaized.net,DIRECT
+
+############ ShadowPro.conf ############
+
+
+
+############ SurfboardProxy.conf ############
 # Client 自定义
 PROCESS-NAME,com.qianyan.eudic,DIRECT
 PROCESS-NAME,com.microsoft.skydrive,DIRECT
@@ -8,12 +57,15 @@ PROCESS-NAME,com.coolapk.market,DIRECT
 PROCESS-NAME,com.spotify.music,DIRECT
 PROCESS-NAME,com.shanga.walli,DIRECT
 # > OneDrive
-PROCESS-NAME,OneDrive
-PROCESS-NAME,OneDriveUpdater
-USER-AGENT,OneDrive*
-USER-AGENT,OneDriveiOSApp*
+PROCESS-NAME,OneDrive,DIRECT
+PROCESS-NAME,OneDriveUpdater,DIRECT
 
 
+############ SurfboardProxy.conf ############
+
+
+
+############ Rule ############
 # >> 自定义规则列表 :Add
 
 DOMAIN-SUFFIX,ping.pe,DIRECT
@@ -50,3 +102,5 @@ DOMAIN-SUFFIX,twist.com,PROXY
 DOMAIN-SUFFIX,last.fm,PROXY
 DOMAIN-SUFFIX,f2ex.cn,PROXY
 DOMAIN-SUFFIX,moshi.com,PROXY
+
+############ Rule ############
