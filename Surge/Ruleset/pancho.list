@@ -3,6 +3,10 @@
 # CUSTOM RULE
 USER-AGENT,Lynda*,DIRECT
 USER-AGENT,Wallpapers*,DIRECT
+# > Slack改为直连
+USER-AGENT,com.tinyspeck.chatlyio*,DIRECT
+USER-AGENT,Slack*,DIRECT
+DOMAIN-SUFFIX,Slack.com,DIRECT
 # > Spotify改为直连
 USER-AGENT,Spotify*,DIRECT
 DOMAIN-SUFFIX,pscdn.co,DIRECT
@@ -67,7 +71,7 @@ PROCESS-NAME,OneDriveUpdater,DIRECT
 
 ############ Rule ############
 # >> 自定义规则列表 :Add
-
+DOMAIN-SUFFIX,Slack.com,DIRECT
 DOMAIN-SUFFIX,ping.pe,DIRECT
 DOMAIN-SUFFIX,pancholin.monster,DIRECT
 DOMAIN-SUFFIX,cloudflare.com,DIRECT
